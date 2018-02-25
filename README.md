@@ -1,13 +1,3 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Bits blog
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+This is the repo for GUMAD's tech blog. If you're interested in submitting an article, please make a pull request that adds a markdown file to `src/posts`. See [here](http://blog.gumad.club/publishing) for rules and more information.
