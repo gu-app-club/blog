@@ -26,4 +26,4 @@ title: "My Article Title"
 
 Dates must be in [ISO 8601 format](http://www.timestampgenerator.com/). We will hopefully make that part easier soon.
 
-When your finished, send a [pull request](https://help.github.com/articles/creating-a-pull-request/) to [the repo.](https://github.com/gu-app-club/blog)
+When you're finished, send a [pull request](https://help.github.com/articles/creating-a-pull-request/) to [the repo.](https://github.com/gu-app-club/blog)
