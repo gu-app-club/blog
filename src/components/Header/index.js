@@ -1,5 +1,16 @@
 import React from "react";
 import Link from "gatsby-link";
+import styled from "styled-components";
+
+const Bar = styled.div`
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 1.5rem 1rem;
+`;
+
+const HeaderLogo = styled.h1`
+  margin: 0;
+`;
 
 const Header = ({ title }) => (
   <div
@@ -7,14 +18,8 @@ const Header = ({ title }) => (
       marginBottom: "1.45rem"
     }}
   >
-    <div
-      style={{
-        margin: "0 auto",
-        maxWidth: 700,
-        padding: "1.45rem 1.0875rem"
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+    <Bar>
+      <HeaderLogo>
         <Link
           to="/"
           style={{
@@ -23,8 +28,8 @@ const Header = ({ title }) => (
         >
           {title}
         </Link>
-      </h1>
-    </div>
+      </HeaderLogo>
+    </Bar>
   </div>
 );
 

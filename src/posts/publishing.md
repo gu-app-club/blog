@@ -4,7 +4,7 @@ date: "2017-07-12T17:12:33.962Z"
 title: "How to Publish"
 ---
 
-Welcome to Bits, [GUMAD's](http://gumad.club/) tech blog. "Bits" is designed for bite sized articles that explain complicated tech topics. The idea is to be [axios](https://www.axios.com/) but instead of capitalism we've got the CAP theorem.
+Welcome to Bits, [GUMAD's](http://gumad.club/) tech blog. "Bits" is designed for small articles that explain complicated tech topics. The idea is to be [axios](https://www.axios.com/) but instead of talking about capitalism we talk about [CAP theorem.](https://en.wikipedia.org/wiki/CAP_theorem)
 
 ## Articles must be less than 150 words.
 
