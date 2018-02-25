@@ -1,6 +1,6 @@
 ---
 path: "/publishing"
-date: "2017-07-12T17:12:33.962Z"
+date: "2018-02-25T23:03:00+00:00"
 title: "How to Publish"
 ---
 
