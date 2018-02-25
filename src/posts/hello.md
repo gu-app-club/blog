@@ -1,13 +1,29 @@
 ---
-path: "/hello"
+path: "/publishing"
 date: "2017-07-12T17:12:33.962Z"
-title: "My First Gatsby Post"
+title: "Publishing to Bits"
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Welcome to Bits, [GUMAD's](http://gumad.club/) tech blog. "Bits" is designed for bite sized articles that explain complicated tech topics. The idea is to be [axios](https://www.axios.com/) but instead of capitalism we've got the CAP theorem.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Articles must be less than 150 words.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Brevity breeds quality. Code doesn't count. We may increase the size in the future.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Write your articles in markdown, send a PR to submit.
+
+[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is Github-friendly and gets converted into HTML by our site.
+
+If you'd like to submit an article, add a `.md` document to `src/posts`. It must have a header at the top in the form:
+
+```
+---
+path: "/my-article-title"
+date: "2017-07-12T17:12:33.962Z"
+title: "My Article Title"
+---
+```
+
+Dates must be in [ISO 8601 format](http://www.timestampgenerator.com/). We will hopefully make that part easier soon.
+
+When your finished, send a [pull request](https://help.github.com/articles/creating-a-pull-request/) to [the repo.](https://github.com/gu-app-club/blog)
