@@ -4,7 +4,7 @@ date: "2018-02-25T23:03:59+00:00"
 title: "Little's Law"
 ---
 
-Little's Law is a theorem in [queuing theory](https://en.wikipedia.org/wiki/Queueing_theory)
+Little's Law is a theorem in [queueing theory](https://en.wikipedia.org/wiki/Queueing_theory)
 that the average number of items in [a queue](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/tutorial/) is equal to the average arrival rate multiplied by the average time the item spends in the queue.
 
 Expressed in code, this looks like this
