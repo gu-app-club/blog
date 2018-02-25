@@ -4,6 +4,8 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-catch-links",
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-transformer-remark",
