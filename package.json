@@ -6,8 +6,12 @@
   "dependencies": {
     "gatsby": "^1.9.214",
     "gatsby-link": "^1.6.37",
+    "gatsby-plugin-catch-links": "^1.0.17",
     "gatsby-plugin-netlify-cms": "^1.0.9",
     "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-remark-copy-linked-files": "^1.5.28",
+    "gatsby-remark-images": "^1.5.50",
+    "gatsby-remark-prismjs": "^1.2.15",
     "gatsby-source-filesystem": "^1.5.23",
     "gatsby-transformer-remark": "^1.7.33",
     "react-helmet": "^5.2.0"
