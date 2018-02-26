@@ -11,14 +11,14 @@ But, an IP address can be interpreted in multiple ways...
 I did all of these on the Chrome Browser, but Firefox should also work:
 
 ## Decimal
-```google.com
-http://1249713252
-```
+google.com  
+[http://1249713252]: http://1249713252
+
 
 ## Hexadecimal 
-```google.com
+google.com
 *****
-```
+
 
 ## Octal
 ```google.com
