@@ -1,13 +1,13 @@
 ---
 path: "/IP-encodings"
 date: "2018-02-26T04:41:53+00:00"
-title: "IP Address Encodings"
+title: "IP Address Encodings for Browsers"
 author: "Maxwell Dulin"
 author_link: "https://github.com/mdulin2"
 ---
 
-Typically, an IP address is seen in the form x.x.x.x, four octects that are hexadecimal, going to 255.  
-But, an IP address can be interpreted in multiple ways...
+Typically, an IP address is seen in the form x.x.x.x, which is four octects that are hexadecimal, going up to 255.
+But, an IP address can be interpreted in multiple ways depending on the browser...
 I did all of these on the Chrome Browser, but Firefox should also work:
 
 ## Hexadecimal 
@@ -31,5 +31,8 @@ http://0112.0175.28.101
 
 ## Why this is cool
 
-Just something different! Could be used to spoof IP addresses and trick browsers.
+Just something different! This could trick system that track strictly on the conventionaly IP address scheme that's used.
+
+### More
+For more products like this, visit https://github.com/mdulin2/encode-library 
 
