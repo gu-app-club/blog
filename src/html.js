@@ -6,7 +6,7 @@ if (process.env.NODE_ENV === `production`) {
   try {
     stylesStr = require(`!raw-loader!../public/styles.css`);
   } catch (e) {
-    console.log(e);
+    console.error(e);
   }
 }
 
@@ -31,6 +31,17 @@ class Html extends Component {
     return (
       <html op="news" lang="en">
         <head>
+          {this.props.headComponents}
+
+          <meta name="referrer" content="origin" />
+          <meta charSet="utf-8" />
+          <meta name="description" content="Bits: a blog by GUMAD" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+
           {css}
           <title>Bits, a blog by GUMAD </title>
         </head>
