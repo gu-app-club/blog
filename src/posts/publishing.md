@@ -1,7 +1,7 @@
 ---
 path: "/publishing"
 date: "2018-02-25T23:03:00+00:00"
-title: "How to Publish"
+title: "[Meta] How to Publish"
 ---
 
 Welcome to Bits, [GUMAD's](http://gumad.club/) tech blog. "Bits" is designed for small articles that explain complicated tech topics. The idea is to be [axios](https://www.axios.com/) but instead of talking about capitalism we talk about [CAP theorem.](https://en.wikipedia.org/wiki/CAP_theorem)
