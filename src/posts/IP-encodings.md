@@ -1,26 +1,37 @@
 ---
 path: "/IP-encodings"
 date: "2018-02-26T04:41:53+00:00"
-title: "Affine Transformations"
+title: "IP Address Encodings"
 author: "Maxwell Dulin"
 author_link: "https://github.com/mdulin2"
 ---
 
-An affine transformation is a function that maps one vector to another.
+Typically, an IP address is seen in the form x.x.x.x, four octects that are hexadecimal, going to 255.  
+But, an IP address can be interpreted in multiple ways...
+I did all of these on the Chrome Browser, but Firefox should also work:
 
-## Python Example
-
-In the following example, we'll create an affine transformation that [translates](<https://en.wikipedia.org/wiki/Translation_(geometry)>) an x and y cordinate such that every point is moved right 10.
-
-```python
-def moveRight(x, y):
-    return (x + 10, y)
+## Decimal
+```google.com
+http://1249713252
 ```
 
-If we apply this function to every point in a grid, we have effectively moved that entire grid to the right.
+## Hexadecimal 
+```google.com
+*****
+```
 
+## Octal
+```google.com
+http://0112.0175.0034.0213
+```
+
+But, it doesn't stop here! They can be mixed and matched.
+# Mixed
+octal.octal.hex.hex
+```google.com
+http://0112.0175.28.101
+```
 ## Why this is cool
 
-This gives us a pretty neat abstraction for moving, rotating, or reflecting 2d or 3d objects.
+Just something different! Could be used to spoof IP addresses and trick browsers.
 
-![grid moves right on function call](https://i.imgur.com/dsTaScv.png)
