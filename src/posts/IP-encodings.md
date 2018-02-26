@@ -11,23 +11,23 @@ But, an IP address can be interpreted in multiple ways...
 I did all of these on the Chrome Browser, but Firefox should also work:
 
 ## Hexadecimal 
-<b> google.com </b>
+<b> google.com </b>  
 http://74.125.28.113
 
 
 ## Decimal
-<b> google.com </b>
-[http://1249713252]: (http://1249713252)
+<b> google.com </b>  
+http://1249713252
 
 ## Octal
-<b> google.com </b>
-[http://0112.0175.0034.0213] (http://0112.0175.0034.0213)
+<b> google.com </b>  
+ http://0112.0175.0034.0213
 
 But, it doesn't stop here! They can be mixed and matched.
 # Mixed
-octal.octal.hex.hex
-<b> google.com </b>
-[http://0112.0175.28.101] (http://0112.0175.28.101)
+octal.octal.hex.hex  
+<b> google.com </b>  
+http://0112.0175.28.101
 
 ## Why this is cool
 
