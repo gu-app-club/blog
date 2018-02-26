@@ -9,11 +9,15 @@ const Card = styled.div`
   max-width: 600px;
 `;
 
+const Head = styled.h1`
+  font-weight: 300;
+`;
+
 export default ({ post }) => (
   <Card>
-    <h1>
-      <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-    </h1>
+    <Link to={post.frontmatter.path}>
+      <Head>{post.frontmatter.title}</Head>
+    </Link>
 
     <p>
       <b>{post.frontmatter.date}</b> - {post.excerpt}{" "}

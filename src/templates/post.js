@@ -1,11 +1,16 @@
 import React from "react";
+import styled from "styled-components";
+
+const Head = styled.h1`
+  font-weight: 300;
+`;
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1>{post.frontmatter.title}</h1>
+    <div>
+      <div>
+        <Head>{post.frontmatter.title}</Head>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
