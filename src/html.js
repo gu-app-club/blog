@@ -30,6 +30,7 @@ class Html extends Component {
 
     return (
       <html op="news" lang="en">
+        <head>{css}</head>
         <body>
           <div
             id="___gatsby"
