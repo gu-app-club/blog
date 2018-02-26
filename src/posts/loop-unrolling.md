@@ -1,7 +1,7 @@
 ---
 path: "/loop-unrolling"
 date: "2018-02-25T23:37:15+00:00"
-title: "Loop Unrolling"
+title: "Loop Unrolling and Code Optimization"
 ---
 
 Loop Unrolling is an optimization technique that reduces overhead by removing instructions that control the loop such as iteration: `i++` or end-of-loop tests: `i < 5`.
