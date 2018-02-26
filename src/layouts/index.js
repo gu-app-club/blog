@@ -1,22 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Helmet from "react-helmet";
 
 import Header from "../components/Header";
 import "./index.css";
 
 const TemplateWrapper = ({ children, data }) => (
   <div>
-    <Helmet
-      title="Bits, a blog by GUMAD"
-      meta={[
-        {
-          name: "description",
-          content: "A tiny, bite-sized tech blog maintained by GUMAD."
-        },
-        { name: "keywords", content: "gumad, tech, blog, tiny, axios" }
-      ]}
-    />
     <Header title={data.site.siteMetadata.title} />
     <div
       style={{

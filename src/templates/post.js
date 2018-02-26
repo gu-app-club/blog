@@ -22,7 +22,6 @@ function githubPath(path) {
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
-  console.log(githubPath(post.fileAbsolutePath));
   return (
     <div>
       <Head>{post.frontmatter.title}</Head>
