@@ -24,3 +24,5 @@ for (int i = 0; i < 6; i++) {
 If we plot a point at every `i` and `j` value, we've mapped the "iteration domain" of the prorgram:
 
 ![Visualization of Iteration Domain](https://i.imgur.com/O4eE95T.png)
+
+[Source](https://www.cs.indiana.edu/~achauhan/Teaching/B629/2010-Fall/StudentPresns/PolyhedralModelOverview.pdf)
