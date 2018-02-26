@@ -21,8 +21,12 @@ If you'd like to submit an article, add a `.md` document to `src/posts`. It must
 path: "/my-article-title"
 date: "2017-07-12T17:12:33.962Z"
 title: "My Article Title"
+author: "John Doe"
+author_link: "http://example.com"
 ---
 ```
+
+`author_link` is optional.
 
 Dates must be in [ISO 8601 format](http://www.timestampgenerator.com/). We will hopefully make that part easier.
 

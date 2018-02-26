@@ -2,6 +2,8 @@
 path: "/littles-law"
 date: "2018-02-25T23:03:59+00:00"
 title: "Little's Law"
+author: "Evan Conrad"
+author_link: "https://twitter.com/flaqueeau"
 ---
 
 Little's Law is a theorem in [queueing theory](https://en.wikipedia.org/wiki/Queueing_theory)

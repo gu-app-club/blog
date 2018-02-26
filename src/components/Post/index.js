@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
+import CreditsTag from "../CreditsTag";
 
 const Card = styled.div`
   border: 0;
@@ -19,8 +20,8 @@ export default ({ post }) => (
       <Head>{post.frontmatter.title}</Head>
     </Link>
 
-    <p>
-      <b>{post.frontmatter.date}</b> - {post.excerpt}{" "}
-    </p>
+    <CreditsTag post={post} />
+
+    <p>{post.excerpt}</p>
   </Card>
 );

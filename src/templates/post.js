@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import CreditsTag from "../components/CreditsTag";
 
 const Head = styled.h1`
   font-weight: 300;
@@ -19,12 +20,12 @@ function githubPath(path) {
 
   return githubRepo + localPath;
 }
-
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
   return (
     <div>
       <Head>{post.frontmatter.title}</Head>
+      <CreditsTag post={post} />
       <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: post.html }}
@@ -48,6 +49,8 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        author
+        author_link
       }
       fileAbsolutePath
     }
