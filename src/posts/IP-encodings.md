@@ -12,7 +12,7 @@ I did all of these on the Chrome Browser, but Firefox should also work:
 
 ## Hexadecimal 
 <b> google.com </b>
-[http://74.125.28.113] (http://74.125.28.113)
+http://74.125.28.113
 
 
 ## Decimal
