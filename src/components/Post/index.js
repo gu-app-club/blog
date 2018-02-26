@@ -6,7 +6,7 @@ const Card = styled.div`
   border: 0;
   margin: 2.5rem 0;
   border-radius: 5px;
-  max-width: 600px;
+  max-width: 700px;
 `;
 
 const Head = styled.h1`
