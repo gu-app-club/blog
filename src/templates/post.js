@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Title } from "../components/UI/typography";
+
+const Head = styled.h1`
+  font-weight: 300;
+`;
 
 /**
  * Converts an absolute path to the path on github
@@ -19,9 +22,10 @@ function githubPath(path) {
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
+  console.log(githubPath(post.fileAbsolutePath));
   return (
     <div>
-      <Title>{post.frontmatter.title}</Title>
+      <Head>{post.frontmatter.title}</Head>
       <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: post.html }}
