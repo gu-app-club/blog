@@ -33,7 +33,7 @@ const Nav = styled.nav`
   align-items: flex-end;
 `;
 
-const ShiftedLink = styled.a`
+const ShiftedLink = styled.span`
   margin-left: 3rem;
 `;
 
@@ -56,12 +56,14 @@ const Header = ({ title }) => (
         </Link>
       </HeaderLogo>
       <Nav>
-        <a href="https://github.com/gu-app-club/blog">
-          <ShiftedLink> github </ShiftedLink>
-        </a>
-        <Link to="/about">
-          <ShiftedLink> /about </ShiftedLink>
-        </Link>
+        <ShiftedLink>
+          <a href="https://github.com/gu-app-club/blog">github</a>
+        </ShiftedLink>
+
+        <ShiftedLink>
+          {" "}
+          <Link to="/about">/about </Link>{" "}
+        </ShiftedLink>
       </Nav>
     </Bar>
   </div>
