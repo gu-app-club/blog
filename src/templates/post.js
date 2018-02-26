@@ -5,17 +5,38 @@ const Head = styled.h1`
   font-weight: 300;
 `;
 
+/**
+ * Converts an absolute path to the path on github
+ */
+function githubPath(path) {
+  const numOfPathSegments = 3;
+  const githubRepo = "https://github.com/gu-app-club/blog/edit/master/";
+
+  const segments = path.split("/");
+  const localPath = segments
+    .slice(Math.max(segments.length - numOfPathSegments, 1))
+    .join("/");
+
+  return githubRepo + localPath;
+}
+
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
+  console.log(githubPath(post.fileAbsolutePath));
   return (
     <div>
-      <div>
-        <Head>{post.frontmatter.title}</Head>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
-      </div>
+      <Head>{post.frontmatter.title}</Head>
+      <div
+        className="blog-post-content"
+        dangerouslySetInnerHTML={{ __html: post.html }}
+      />
+
+      <hr />
+
+      <p>
+        Something wrong with this post?{" "}
+        <a href={githubPath(post.fileAbsolutePath)}>Edit it here.</a>
+      </p>
     </div>
   );
 }
@@ -29,6 +50,7 @@ export const pageQuery = graphql`
         path
         title
       }
+      fileAbsolutePath
     }
   }
 `;
