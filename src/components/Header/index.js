@@ -59,9 +59,9 @@ const Header = ({ title }) => (
         <a href="https://github.com/gu-app-club/blog">
           <ShiftedLink> github </ShiftedLink>
         </a>
-        {/* <Link to="/about">
+        <Link to="/about">
           <ShiftedLink> /about </ShiftedLink>
-        </Link> */}
+        </Link>
       </Nav>
     </Bar>
   </div>

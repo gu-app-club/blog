@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
+import { Title } from "../UI/typography";
 
 const Card = styled.div`
   border: 0;
@@ -9,14 +10,10 @@ const Card = styled.div`
   max-width: 700px;
 `;
 
-const Head = styled.h1`
-  font-weight: 300;
-`;
-
 export default ({ post }) => (
   <Card>
     <Link to={post.frontmatter.path}>
-      <Head>{post.frontmatter.title}</Head>
+      <Title>{post.frontmatter.title}</Title>
     </Link>
 
     <p>
