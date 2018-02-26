@@ -17,7 +17,7 @@ def moveRight(x, y):
     return (x + 10, y)
 ```
 
-If we apply this function to every point in a grid, we will have effectively moved that entire grid upwards.
+If we apply this function to every point in a grid, we have effectively moved that entire grid to the right.
 
 ## Why this is cool
 

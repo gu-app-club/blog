@@ -2,9 +2,9 @@ import React from "react";
 import Link from "gatsby-link";
 import { Title } from "../components/UI/typography";
 
-const NotFoundPage = () => (
+const AboutPage = () => (
   <div>
-    <Title> About </Title>
+    <Title> A Tech Blog in 150 Words </Title>
 
     <p>
       Bits is a project by Gonzaga University Makers And Developers (<a href="http://gumad.club/">
@@ -61,4 +61,4 @@ const NotFoundPage = () => (
     </p>
   </div>
 );
-export default NotFoundPage;
+export default AboutPage;

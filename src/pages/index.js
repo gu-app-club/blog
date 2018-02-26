@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import Post from "../components/Post";
+import Footer from "../components/Footer";
 
 const IndexPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
@@ -9,6 +10,7 @@ const IndexPage = ({ data }) => {
       {posts.map(({ node: post }) => {
         return <Post post={post} />;
       })}
+      <Footer />
     </div>
   );
 };
@@ -24,7 +26,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "YYYY")
             path
             author
             author_link

@@ -12,8 +12,8 @@ export default ({ post }) => {
 
   return (
     <p>
-      by <AuthorLink href={post.frontmatter.author_link}>{author}</AuthorLink>{" "}
-      on <b>{post.frontmatter.date}</b>
+      by <AuthorLink href={post.frontmatter.author_link}>{author}</AuthorLink>,{" "}
+      <b>{post.frontmatter.date}</b>
     </p>
   );
 };
