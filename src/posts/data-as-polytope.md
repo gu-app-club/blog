@@ -20,4 +20,4 @@ So the red node depends on the gray node in the top left corner. Likewise, the g
 
 ---
 
-[1][wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/1/1e/Polytope_model_unskewed.svg)
+[1] [Wikimedia commons](https://upload.wikimedia.org/wikipedia/commons/1/1e/Polytope_model_unskewed.svg)
