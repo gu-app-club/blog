@@ -18,11 +18,14 @@ There are [five algorithms](<https://en.wikibooks.org/wiki/Trigonometry/For_Enth
 * Voronoi diagrams
 
 ## Some pretty examples
-![Delaunay triangulation 2D](http://www.geom.at/wp/wp-content/uploads/constrained_delaunay.jpg)[Source](http://www.geom.at/wp/wp-content/uploads/constrained_delaunay.jpg)
+![Delaunay triangulation 2D](http://www.geom.at/wp/wp-content/uploads/constrained_delaunay.jpg)
+
+[Source](http://www.geom.at/wp/wp-content/uploads/constrained_delaunay.jpg)
 
 ![Buddha Delaunay triangulation](https://tomaszjaniak.files.wordpress.com/2011/07/delaunay2.jpg)
+
 [Source](https://tomaszjaniak.files.wordpress.com/2011/07/delaunay2.jpg)
 
-![Circle art deco Delaunay triangulation](http://www.comp.nus.edu.sg/~tants/gdel3d_files/3ddt.png)
+![Empire State Building Delaunay triangulation](http://www.gogeometry.com/computational_geometry/delaunay-triangulation/empire-state-building-delaunay-triangulation.jpg)
 
-[Source](<http://www.comp.nus.edu.sg/~tants/gdel3d_files/3ddt.png>)
+[Source](<http://www.gogeometry.com/computational_geometry/delaunay-triangulation/empire-state-building-delaunay-triangulation.jpg>)
