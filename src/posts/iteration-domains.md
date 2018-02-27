@@ -21,7 +21,7 @@ for (int i = 0; i < 6; i++) {
 }
 ```
 
-If we plot a point at every `i` and `j` value, we've mapped the "iteration domain" of the prorgram:
+If we plot a point at every `i` and `j` value, we've mapped the "iteration domain" of the program:
 
 ![Visualization of Iteration Domain](https://i.imgur.com/O4eE95T.png)
 

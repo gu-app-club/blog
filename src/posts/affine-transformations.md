@@ -10,7 +10,7 @@ An affine transformation is a function that maps one vector to another.
 
 ## Python Example
 
-In the following example, we'll create an affine transformation that [translates](<https://en.wikipedia.org/wiki/Translation_(geometry)>) an x and y cordinate such that every point is moved right 10.
+In the following example, we'll create an affine transformation that [translates](<https://en.wikipedia.org/wiki/Translation_(geometry)>) an x and y coordinate such that every point is moved right 10.
 
 ```python
 def moveRight(x, y):
