@@ -6,7 +6,7 @@ author: "Evan Conrad"
 author_link: "https://twitter.com/flaqueeau"
 ---
 
-We've seen [before](http://bits.gumad.club/data-dependencies) that we can represent data dependencies as a graph. But we can also represent them as a [polytope](http://bits.gumad.club/polytopes)!
+We've seen [before](/data-dependencies) that we can represent data dependencies as a graph. But we can also represent them as a [polytope](/polytopes)!
 
 Instead of a solid shape, we'll use a [lattice](<https://en.wikipedia.org/wiki/Lattice_(group)>) or a series of points on a grid that loosely resemble a polygon.
 
