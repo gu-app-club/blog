@@ -1,25 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import CreditsTag from "../components/CreditsTag";
+import { AskQuestion, SomethingWrong } from "../components/Github";
 
 const Head = styled.h1`
   font-weight: 300;
 `;
 
-/**
- * Converts an absolute path to the path on github
- */
-function githubPath(path) {
-  const numOfPathSegments = 3;
-  const githubRepo = "https://github.com/gu-app-club/blog/edit/master/";
-
-  const segments = path.split("/");
-  const localPath = segments
-    .slice(Math.max(segments.length - numOfPathSegments, 1))
-    .join("/");
-
-  return githubRepo + localPath;
-}
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
   return (
@@ -33,10 +20,8 @@ export default function Template({ data }) {
 
       <hr />
 
-      <p>
-        Something wrong with this post?{" "}
-        <a href={githubPath(post.fileAbsolutePath)}>Edit it here.</a>
-      </p>
+      <SomethingWrong path={post.fileAbsolutePath} />
+      <AskQuestion title={post.frontmatter.title} />
     </div>
   );
 }

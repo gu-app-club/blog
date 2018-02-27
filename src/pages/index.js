@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
-import Post from "../components/Post";
+import PostPreview from "../components/PostPreview";
 import Footer from "../components/Footer";
 
 const IndexPage = ({ data }) => {
@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       {posts.map(({ node: post }) => {
-        return <Post post={post} />;
+        return <PostPreview post={post} />;
       })}
       <Footer />
     </div>
