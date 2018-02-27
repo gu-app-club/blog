@@ -4,7 +4,7 @@ import { Title } from "../components/UI/typography";
 
 const AboutPage = () => (
   <div>
-    <Title> A Tech Blog in 150 Words </Title>
+    <Title> Tech Topics in 150 Words </Title>
 
     <p>
       Bits is a project by Gonzaga University Makers And Developers (<a href="http://gumad.club/">
