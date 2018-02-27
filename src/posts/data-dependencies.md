@@ -17,3 +17,9 @@ c = b # Data dependency
 ```
 
 Data dependencies cause problems when creating parallel programs because each line must run sequentially.
+
+## As a graph
+
+Like any dependency, we can represent data dependencies as a [directed graph](http://mathworld.wolfram.com/DirectedGraph.html).
+
+![directed graph](https://i.imgur.com/oUMalNT.png)
