@@ -35,7 +35,7 @@ class Html extends Component {
 
           <meta name="referrer" content="origin" />
           <meta charSet="utf-8" />
-          <meta name="description" content="Bits: a blog by GUMAD" />
+          <meta name="description" content="Bits: a tech blog in 150 words or less." />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
@@ -43,7 +43,7 @@ class Html extends Component {
           />
 
           {css}
-          <title>Bits, a blog by GUMAD </title>
+          <title>Bits, tech topics in 150 words or less. </title>
         </head>
         <body>
           <div
