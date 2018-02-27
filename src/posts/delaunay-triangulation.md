@@ -6,21 +6,23 @@ author: "Kathrine Gibson"
 author_link: "https:linkedin.com/in/kathrine-gibson"
 ---
 
-An affine transformation is a function that maps one vector to another.
+Delaunay Triangulation is a trigonometrical technique that creates a triangular mesh, avoiding sliver triangles. [Here's](<https://people.eecs.berkeley.edu/~jrs/papers/meshbook/chapter2.pdf>) a more formal definition. 
 
-## Python Example
+## How to Implement 
+There are [five algorithms](<https://en.wikibooks.org/wiki/Trigonometry/For_Enthusiasts/Delaunay_triangulation#Algorithms>) to compute Delaunay triangulations but all rely on the making a polygon into a bunch of triangles and then making sure no point is in the [circumcircle](<http://mathworld.wolfram.com/Circumcircle.html>) of any triangle.
 
-In the following example, we'll create an affine transformation that [translates](<https://en.wikipedia.org/wiki/Translation_(geometry)>) an x and y coordinate such that every point is moved right 10.
+## What is this used for 
 
-```python
-def moveRight(x, y):
-    return (x + 10, y)
-```
+* To create nice triangular meshes for [graphic design](<https://www.behance.net/search?content=projects&user_tags=1872977>), numerical analysis, modeling terrain, etc
+* [Minimum spanning trees](<https://en.wikipedia.org/wiki/Minimum_spanning_tree>)
+* Voronoi diagrams
 
-If we apply this function to every point in a grid, we have effectively moved that entire grid to the right.
+## Some pretty examples
+![Delaunay triangulation 2D](http://www.geom.at/wp/wp-content/uploads/constrained_delaunay.jpg)[Source](http://www.geom.at/wp/wp-content/uploads/constrained_delaunay.jpg)
 
-## Why this is cool
+![Buddha Delaunay triangulation](https://tomaszjaniak.files.wordpress.com/2011/07/delaunay2.jpg)
+[Source](https://tomaszjaniak.files.wordpress.com/2011/07/delaunay2.jpg)
 
-This gives us a pretty neat abstraction for moving, rotating, or reflecting 2d or 3d objects.
+![Circle art deco Delaunay triangulation](http://www.comp.nus.edu.sg/~tants/gdel3d_files/3ddt.png)
 
-![grid moves right on function call](https://i.imgur.com/dsTaScv.png)
+[Source](<http://www.comp.nus.edu.sg/~tants/gdel3d_files/3ddt.png>)
