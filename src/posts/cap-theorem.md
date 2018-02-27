@@ -15,7 +15,7 @@ The CAP theorem asks you to pick two of the of the following three benefits in a
 Often, you may want to split up or duplicate your database. We call this **partitioning.** 
 
 ## Consistency 
-Even though our database is split up, we still would like the key to refer to the same value in all our database partitions. Every read receives the most recent write or an error
+Even though our database is split up, we still would like the key to refer to the same value in all our database partitions. Every read receives the most recent write or an error.
 
 ## Availability
 Every time we send a request to the database, we should get a response back, even if it's not the most up-to-date. 
