@@ -1,7 +1,7 @@
 ---
-path: "/affine-transformations"
-date: "2018-02-26T04:41:53+00:00"
-title: "Affine Transformations"
+path: "/bernstein-conditions"
+date: "2018-02-27T21:06:05+00:00"
+title: "Bernstein Conditions"
 author: "Evan Conrad"
 author_link: "https://twitter.com/flaqueeau"
 ---
