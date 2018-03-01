@@ -3,7 +3,6 @@ import Feed from "../components/Feed";
 import queryString from "query-string";
 
 const IndexPage = props => {
-  const params = queryString.parse(props.location.search);
   return <Feed data={props.data} />;
 };
 
