@@ -6,7 +6,7 @@ title: "[Meta] How to Publish"
 
 Welcome to Bits, [GUMAD's](http://gumad.club/) tech blog. "Bits" is designed for small articles that explain complicated tech topics. The idea is to be [axios](https://www.axios.com/) but instead of talking about capitalism we talk about [CAP theorem.](https://en.wikipedia.org/wiki/CAP_theorem)
 
-## Articles must be less than 150 words.
+## Articles must be fewer than 150 words.
 
 Brevity breeds quality. Code doesn't count. We may increase the size in the future.
 
