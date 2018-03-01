@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import styled from "styled-components";
+import { NewFilePath } from "../Github";
 
 const Bar = styled.div`
   margin: 0 auto;
@@ -61,9 +62,12 @@ const Header = ({ title }) => (
         </ShiftedLink>
 
         <ShiftedLink>
-          {" "}
-          <Link to="/about">/about </Link>{" "}
+          <Link to="/about">/about </Link>
         </ShiftedLink>
+
+        <ShiftedLink>
+          <a href={NewFilePath()}>/new</a>
+          </ShiftedLink>
       </Nav>
     </Bar>
   </div>

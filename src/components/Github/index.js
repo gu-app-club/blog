@@ -28,6 +28,33 @@ function questionPath(title) {
   return `${GITHUB_PATH}/issues/new?title=${issueTitle}&body=${body}`;
 }
 
+export function NewFilePath() {
+  const body = encodeURIComponent(`---
+path: "/my-new-post"
+date: "${new Date().toISOString()}"
+title: "My New Post"
+author: "Joe Shmoe"
+author_link: "https://supporters.eff.org/donate"
+---
+
+<!-- 
+This is a comment! It won't actually appear in the article. 
+You can remove it if you'd like.
+
+Edit the details in the header above please!
+
+The date is already set to now, so you don't need to change it.
+
+You can also remove the "author_link" line entirely 
+if you don't have anything you'd like to link to.
+-->
+  `);
+
+  const title = encodeURIComponent("my-new-post.md");
+
+  return `${GITHUB_PATH}/new/master/src/posts/?filename=${title}&value=${body}`
+}
+
 export const SomethingWrong = ({ path }) => (
   <p>
     Something wrong with this post?{" "}
