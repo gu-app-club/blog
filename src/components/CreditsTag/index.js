@@ -4,7 +4,7 @@ const AuthorLink = ({ href, children }) => {
   if (href) {
     return <a href={href}>{children}</a>;
   }
-  return children;
+  return <span>{children}</span>;
 };
 
 export default ({ post }) => {
